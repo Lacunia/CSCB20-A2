@@ -1,0 +1,38 @@
+html, div, body {
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    border-bottom:2px solid black;
+}
+
+.navbar a {
+    display: flex;
+    flex:1;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:black;
+    font-size: large;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+}
+
+.navbar img {
+    width: auto;
+    height:70px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}

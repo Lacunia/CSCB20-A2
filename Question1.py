@@ -8,6 +8,7 @@ def hello():
 
 @app.route('/<name>')
 def user(name):
+    
     name = name.strip()
     name = name.swapcase()
     return '<h1>Welcome, {}, to my CSCB20 website!</h1>'.format(name)

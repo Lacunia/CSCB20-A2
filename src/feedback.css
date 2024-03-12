@@ -1,13 +1,6 @@
 body {
     margin:0;
     padding:0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-article{
-    flex:1;
 }
 
 .navbar {
@@ -35,12 +28,6 @@ article{
     background-color: aquamarine;
 }
 
-.navbar img {
-    width: auto;
-    height:70px;
-    padding-left: 20px;
-}
-
 #logo {
     display: flex;
     flex:1;
@@ -56,22 +43,26 @@ article{
     }
 }
 
-.Instructors{
-    display:grid;
+.navbar img {
+    width: auto;
+    height:70px;
+    padding-left: 20px;
+}
+
+.Feedback-form {
     padding-top: 70px;
 }
 
-h1 {
-    display:flex;
+#title {
+    display: flex;
     justify-content: center;
 }
 
 .footer {
-    position:relative;
+    position:static;
     bottom:0;
     width:100%;
     background-color: aliceblue;
     border-top:2px solid black;
-    height: 55px;
-    flex:content;
+    height: 50px;
 }

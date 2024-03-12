@@ -56,13 +56,12 @@ article{
     }
 }
 
-.Instructors{
-    display:grid;
-    padding-top: 70px;
+.content {
+    padding: 70px;
 }
 
-h1 {
-    display:flex;
+#title {
+    display: flex;
     justify-content: center;
 }
 

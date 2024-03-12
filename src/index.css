@@ -57,3 +57,12 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    position:static;
+    bottom:0;
+    width:100%;
+    background-color: aliceblue;
+    border-top:2px solid black;
+    height: 50px;
+}

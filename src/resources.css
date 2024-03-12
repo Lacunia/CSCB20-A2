@@ -28,12 +28,6 @@ body {
     background-color: aquamarine;
 }
 
-.navbar img {
-    width: auto;
-    height:70px;
-    padding-left: 20px;
-}
-
 #logo {
     display: flex;
     flex:1;
@@ -47,6 +41,12 @@ body {
     :hover {
         background-color: aliceblue;
     }
+}
+
+.navbar img {
+    width: auto;
+    height:70px;
+    padding-left: 20px;
 }
 
 .content {

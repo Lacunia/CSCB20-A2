@@ -49,12 +49,12 @@ body {
     }
 }
 
-.Instructors{
-    display:grid;
-    padding-top: 70px;
+.Content {
+    display: grid;
+    padding: 70px;
 }
 
-h1 {
+#title {
     display:flex;
     justify-content: center;
 }

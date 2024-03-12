@@ -28,12 +28,6 @@ body {
     background-color: aquamarine;
 }
 
-.navbar img {
-    width: auto;
-    height:70px;
-    padding-left: 20px;
-}
-
 #logo {
     display: flex;
     flex:1;
@@ -49,13 +43,18 @@ body {
     }
 }
 
-.Instructors{
-    display:grid;
+.navbar img {
+    width: auto;
+    height:70px;
+    padding-left: 20px;
+}
+
+.Feedback-form {
     padding-top: 70px;
 }
 
-h1 {
-    display:flex;
+#title {
+    display: flex;
     justify-content: center;
 }
 
@@ -66,5 +65,4 @@ h1 {
     background-color: aliceblue;
     border-top:2px solid black;
     height: 50px;
-    flex:content;
 }

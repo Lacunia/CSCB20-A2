@@ -1,0 +1,1 @@
+As a student, I want to be able to access the website in mobile view as well

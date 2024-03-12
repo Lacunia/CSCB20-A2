@@ -6,10 +6,11 @@ body {
 .navbar {
     display: flex;
     flex-direction: row;
-    position: sticky;
-    justify-content: flex-start;
+    position: fixed;
+    justify-content: flex-start, space-evenly;
     background-color: aliceblue;
     border-bottom:2px solid black;
+    width:100%;
 }
 
 .navbar a {
@@ -30,6 +31,11 @@ body {
 .navbar img {
     width: auto;
     height:70px;
+    padding-left: 20px;
+}
+
+.content {
+    padding: 70px;
 }
 
 #title {

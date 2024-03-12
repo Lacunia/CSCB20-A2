@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: flex-start, space-evenly;
+    background-color: aliceblue;
+    border-bottom:2px solid black;
+    width:100%;
+}
+
+.navbar a {
+    display: flex;
+    flex:1;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:black;
+    font-size: large;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+}
+
+.navbar img {
+    width: auto;
+    height:70px;
+    padding-left: 20px;
+}
+
+#logo {
+    display: flex;
+    flex:1;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:black;
+    font-size: large;
+
+    :hover {
+        background-color: aliceblue;
+    }
+}
+
+.Instructors{
+    display:grid;
+    padding-top: 70px;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+.footer {
+    position:static;
+    bottom:0;
+    width:100%;
+    background-color: aliceblue;
+    border-top:2px solid black;
+    height: 50px;
+    flex:content;
+}

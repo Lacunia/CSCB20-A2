@@ -65,5 +65,24 @@ h1 {
     width:100%;
     background-color: aliceblue;
     border-top:2px solid black;
+    flex:content;
     height: 50px;
+}
+
+.footer-link {
+    display: flex;
+    flex:1;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color:black;
+}
+
+@media screen and (max-width < 400px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    
 }

@@ -66,4 +66,5 @@ h1 {
     background-color: aliceblue;
     border-top:2px solid black;
     height: 50px;
+    flex:content;
 }

@@ -1,1 +1,1 @@
-As a student, I want to be able to access external resources required in this course, like Piazza and Markus
+As a student, I want to be able to access external resources required in this course, like Piazza and Markus.

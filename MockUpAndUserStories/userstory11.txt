@@ -1,1 +1,1 @@
-As a student, I want to be able to access the website in mobile view as well
+As a student, I want to be able to access all the lecture slides for future references.

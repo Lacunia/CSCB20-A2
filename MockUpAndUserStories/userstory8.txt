@@ -1,1 +1,1 @@
-As a student, I want to be able to perhaps access past course materials when preparing for an upcoming assessment
+As a student, I want to be able to perhaps access past midterms and finals when preparing for an upcoming assessment

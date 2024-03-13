@@ -1,1 +1,2 @@
-As a prospective student, I want to access and know about the course syllabus
+As a prospective student, I want to access and know about the course syllabus, course prerequisites and 
+potentially any exclusions

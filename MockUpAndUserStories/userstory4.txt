@@ -1,1 +1,1 @@
-As a student, I want to know the course prerequisites and potentially any exclusions
+As a student, I want to have access to all the labs and worksheets for each week

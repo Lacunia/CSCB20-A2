@@ -42,7 +42,8 @@ article{
 }
 
 .Content {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding: 70px;
 }
 
@@ -51,8 +52,40 @@ article{
     justify-content: center;
 }
 
+.instructors {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .instructor-info{
     border:2px solid black;
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+    max-width: 36%;
+    margin: 0.1% 2% 2% 2%;
+    box-sizing: border-box; 
+    /* The box-sizing: border-box; property ensures that the border and padding of an element are 
+    included in its total width and height calculation. This means that if you set a width of, for example, 
+    50%, and add a 2px border, the overall width of the element will still be 50%, and the border will be 
+    included within that space.
+    
+    Without box-sizing: border-box;, the default box-sizing value is content-box, which calculates width 
+    and height only based on the element's content, excluding padding and border. This can lead to unexpected 
+    layout issues when you add padding or borders, as they will increase the overall size of the element.
+    */
+}
+
+@media (max-width: 480px) {
+    .instructors {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .instructor-info {
+        flex-basis: calc(100% - 20px); /* Full width for smaller screens */
+    }
 }
 
 .footer {

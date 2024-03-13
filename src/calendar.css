@@ -41,21 +41,6 @@ article{
     padding-left: 20px;
 }
 
-#logo {
-    display: flex;
-    flex:1;
-    text-decoration: none;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color:black;
-    font-size: large;
-
-    :hover {
-        background-color: aliceblue;
-    }
-}
-
 .content {
     padding: 70px;
 }

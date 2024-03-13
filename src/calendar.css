@@ -43,6 +43,10 @@ article{
 
 .content {
     padding: 70px;
+    display:flex;
+    flex-direction: column;
+    align-items: center; /* if flex-direction is column, align-items center content horizontally*/
+    overflow:auto;
 }
 
 #title {
@@ -57,4 +61,6 @@ article{
     background-color: aliceblue;
     border-top:2px solid black;
     height: 55px;
+    padding: 15px;
+    text-align: center;
 }

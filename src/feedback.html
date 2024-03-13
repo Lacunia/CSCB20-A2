@@ -19,15 +19,29 @@
     </div>
     <!-- Content of the page -->
     <article>
-        <div class="Feedback-form">
+        <div class="Content">
             <h1 id="title">Feedback form</h1>
-            <form action="feedback.html" method="post">
-                <label for="feedback">Feedback</label>
-                <input type="text" id="feedback" name="feedback" placeholder="Please enter your feedback for our website...">
-                <br>
+            <p>
+                Please leave your feedback for us. We appreciate any suggestions and will do our best
+                to improve the course!
+            </p>
+            <div class="feedback-form">
+                <form action="feedback.html" method="post">
+                    <label for="done-well">1. What did we do well?</label> <br>
+                    <input type="text" id="done-well" name="done-well">
+                    <br>
+                    
+                    <label for="improve">2. What should we improve on?</label> <br>
+                    <input type="text" id="improve" name="improve">
+                    <br>
 
-                <button type="submit">Submit</button>
-            </form>
+                    <label for="feedback">3. Any general feedback?</label> <br>
+                    <input type="text" id="feedback" name="feedback">
+                    <br>
+
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
         </div>
     </article>
     <!-- Footer -->

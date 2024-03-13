@@ -73,3 +73,26 @@ article{
     border-top:2px solid black;
     height: 55px;
 }
+
+#introP{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    overflow: hidden;
+}
+
+.description-p {
+    margin-top: -15px;
+}
+
+.description{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.mini-words{
+    font-size: small;
+    margin-top: -20px;
+}

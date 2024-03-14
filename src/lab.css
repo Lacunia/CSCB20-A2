@@ -43,21 +43,7 @@ article{
 }
 
 .content {
-    padding: 70px 0px 0px 5%;
-
-    a {
-        position: absolute;
-        text-decoration: none;
-        color: #5C7BAD;
-        margin-top: -60px;
-    }
-
-    a:hover{
-        margin-top: -60px;
-        background-color: #0F1E53;
-        border-radius: 15px;
-        color: white;
-        }
+    padding: 70px 0px 0px 0px;
 }
 
 #title {

@@ -19,6 +19,7 @@ article{
     background-color: aliceblue;
     border-bottom:2px solid black;
     width:100%;
+    z-index: 1000; 
 }
 
 .navbar a {
@@ -44,20 +45,27 @@ article{
 }
 
 .content {
-    padding: 70px 0px 0px 5%;
+    padding: 70px 0px 6px 5%;
 
     a {
-        position: absolute;
+        position:absolute;
         text-decoration: none;
         color: #5C7BAD;
         margin-top: -60px;
+        background-color: aliceblue;
+        border-radius: 15px;
+        border:1px solid #0F1E53;
+        width: 150px;
+        text-align: center;
     }
 
     a:hover{
         margin-top: -60px;
         background-color: #0F1E53;
         border-radius: 15px;
+        width: 150px;
         color: white;
+        text-align: center;
         }
 }
 
@@ -67,7 +75,7 @@ article{
 }
 
 .footer {
-    position: relative;
+    position:relative;
     bottom:0;
     width:100%;
     background-color: aliceblue;
@@ -111,7 +119,7 @@ article{
 
 .table {
     border: 1px solid black;
-    margin: 0 10% 50px 10%;
+    margin: 0 5% 50px 5%;
 }
 
 #space-taker {

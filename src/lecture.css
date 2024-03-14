@@ -46,7 +46,7 @@ article{
     padding: 70px 0px 0px 5%;
 
     a {
-        position: absolute;
+        position:static;
         text-decoration: none;
         color: #5C7BAD;
         margin-top: -60px;

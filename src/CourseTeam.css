@@ -101,6 +101,7 @@ article{
     text-align: center;
 }
 
+/*
 .footer-link {
     display: flex;
     flex:1;
@@ -108,7 +109,7 @@ article{
     text-align: center;
     align-items: center;
     color:black;
-}
+}*/
 
 @media screen and (max-width < 400px){
     .footer{

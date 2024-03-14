@@ -44,7 +44,21 @@ article{
 }
 
 .content {
-    padding: 70px 0px 0px 0px;
+    padding: 70px 0px 0px 5%;
+
+    a {
+        position: absolute;
+        text-decoration: none;
+        color: #5C7BAD;
+        margin-top: -60px;
+    }
+
+    a:hover{
+        margin-top: -60px;
+        background-color: #0F1E53;
+        border-radius: 15px;
+        color: white;
+        }
 }
 
 #title {
@@ -53,7 +67,7 @@ article{
 }
 
 .footer {
-    position:relative;
+    position: relative;
     bottom:0;
     width:100%;
     background-color: aliceblue;
@@ -97,9 +111,13 @@ article{
 
 .table {
     border: 1px solid black;
-    margin: 0 5% 50px 5%;
+    margin: 0 10% 50px 10%;
 }
 
 #space-taker {
     flex: 1;
+}
+
+#disclaimer{
+    margin: 5% 10% 5% 10%;
 }

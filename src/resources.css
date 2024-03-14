@@ -28,12 +28,13 @@ article{
     justify-content: center;
     text-align: center;
     align-items: center;
-    color:black;
+    color:#5C7BAD;
     font-size: large;
 }
 
 .navbar a:hover {
-    background-color: aquamarine;
+    color: white;
+    background-color: #0F1E53;
 }
 
 .navbar img {

@@ -61,6 +61,7 @@ article{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    overflow: auto;
 }
 
 .box {
@@ -114,9 +115,8 @@ article{
 
 .table {
     display: grid;
-    grid-template-columns: 100px 800px;
+    grid-template-columns: 2fr 11fr;
     grid-template-rows: auto;
-    margin: 0 auto;
     border: 1px solid black;
     border-radius: 10px;
     margin: 50px 0px;
@@ -160,9 +160,8 @@ article{
 
 .table2 {
     display: grid;
-    grid-template-columns: 900px;
+    grid-template-columns: 10fr;
     grid-template-rows: auto;
-    margin: 0 auto;
     border: 1px solid black;
     border-radius: 10px;
     margin: 0px 0px 50px 0px;

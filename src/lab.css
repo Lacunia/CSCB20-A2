@@ -87,10 +87,9 @@ article{
 
 .row {
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr 2fr;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
     grid-template-rows: auto;
-    align-items: center;
-    margin: 10px 60px 60px 60px;
+    margin: 8px 5% 20px 5%;
     padding: 0;
     border: 1px solid black;
     border-radius: 10px;
@@ -110,38 +109,10 @@ article{
     }
 }
 
-/*
-.week {
-    h2{
-        border-bottom: 2px solid black;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0;
-    }
-    p{
-        border-bottom: 1px solid grey;
-        background-color: aliceblue;
-        padding: 15px;
-        letter-spacing: 0.34px;
-        margin: 0;
-
-        a{
-            text-decoration: none;
-            color: #5C7BAD;
-        }
-
-        a:hover{
-            background-color: #0F1E53;
-            border-radius: 15px;
-            color: white;
-            padding: 5px 0px 5px 0px;
-        }
-    }
-}
-*/
-
 #head {
     background-color: aliceblue;
+    text-align: center;
+    padding:0;
 }
 
 .week {
@@ -149,13 +120,14 @@ article{
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
     text-align: center;
+    padding: 10px;
 }
 
 .topic {
     grid-column: 2 / 3;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
-    text-align: center;
+    padding: 10px;
 }
 
 .lab {
@@ -163,12 +135,22 @@ article{
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
     text-align: center;
+    padding: 10px;
 }
 
 .solution {
     grid-column: 4 / 5;
     border-bottom: 1px solid gray;
     text-align: center;
+    padding: 10px;
+}
+
+.reading{
+    grid-column: 1 / 5;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
 }
 
 #disclaimer{

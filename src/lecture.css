@@ -54,7 +54,6 @@ article{
         background-color: aliceblue;
         border-radius: 15px;
         border:1px solid #0F1E53;
-        padding: 10px 0;
         width: 150px;
         text-align: center;
     }
@@ -85,49 +84,16 @@ article{
     text-align: center;
 }
 
-.row {
-    display: grid;
-    grid-template-columns: 100px 650px 150px 235px;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-
-    h2{
-        border-bottom: 2px solid black;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    p{
-        border-bottom: 1px solid grey;
-        background-color: aliceblue;
-        padding: 15px;
-        letter-spacing: 0.34px;
-
-        a{
-            text-decoration: none;
-            color: #5C7BAD;
-            width:fit-content;
-        }
-
-        a:hover{
-            background-color: #0F1E53;
-            border-radius: 10px;
-            color: white;
-            padding: 5px 0px 5px 0px;
-        }
-    }
-}
-
 .table {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
     grid-template-rows: auto;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 50px 0px;
+    padding: 0;
+    margin: 8px 5% 20px 5%;
     overflow: auto;
     box-sizing: border-box; 
-    margin: 25px 5% 20px 5%;
 
     a{
         text-decoration: none;
@@ -147,13 +113,51 @@ article{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
+    text-align: center;
     align-items: center;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
-    margin-top: 0;
-    padding:20px;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue; 
+}
+
+.table-header2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 0;
+    padding:0;
     background-color: aliceblue;
-    box-sizing: border-box; 
+}
+
+.table-header3 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 0;
+    padding:0;
+    background-color: aliceblue;
+}
+
+.table-header4 {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding:0;
+    background-color: aliceblue; 
 }
 
 .week {
@@ -175,89 +179,26 @@ article{
     padding: 10px;
     box-sizing: border-box; 
 }
+
 .description1 {
     display: grid;
     grid-column: 3 / 4;
     border-bottom: 1px solid gray;
     border-right: 1px solid gray;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     box-sizing: border-box; 
 }
+
 .description2 {
     display: grid;
     grid-column: 4 / 5;
     border-bottom: 1px solid gray;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     box-sizing: border-box; 
-}
-
-.topic ul, li {
-    margin-top: 10px;
-}
-
-.table2 {
-    display: grid;
-    grid-template-columns: 900px;
-    grid-template-rows: auto;
-    margin: 0 auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 0px 0px 50px 0px;
-    overflow: auto;
-    box-sizing: border-box; 
-}
-
-.table-header2 {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    align-items: center;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-    margin-top: 0;
-    padding:20px;
-    background-color: aliceblue;
-    box-sizing: border-box; 
-}
-
-.table-header3 {
-    display: grid;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    align-items: center;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-    margin-top: 0;
-    padding:20px;
-    background-color: aliceblue;
-    box-sizing: border-box; 
-}
-.table-header4 {
-    display: grid;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    align-items: center;
-    border-bottom: 1px solid gray;
-    margin-top: 0;
-    padding:20px;
-    background-color: aliceblue;
-    box-sizing: border-box; 
-}
-
-.resource2 {
-    display: grid;
-    border-bottom: 1px solid gray;
-    padding: 0px 10px 10px 0;
-    margin-top: 0;
-    margin-left: 0;
-    box-sizing: border-box; 
-}
-
-.resource2 ul, li {
-    margin-top: 10px;
-    margin-left: 0;
 }
 
 #midterm {
@@ -267,6 +208,5 @@ article{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid gray;
-    background-color: #ECEDEF;
-    box-sizing: border-box; 
+    background-color: aliceblue;
 }

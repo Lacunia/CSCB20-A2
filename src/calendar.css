@@ -45,15 +45,26 @@ article{
 
 .content {
     padding: 70px;
-    display:flex;
-    flex-direction: column;
-    align-items: center; /* if flex-direction is column, align-items center content horizontally*/
     overflow:auto;
 }
 
 #title {
     display: flex;
     justify-content: center;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.iframe {
+    overflow-x: scroll;
+    flex:1;
+    max-width: 100%; /* Set maximum width to prevent stretching */
+    width: auto;
 }
 
 .footer {

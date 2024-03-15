@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 article{
@@ -44,7 +44,21 @@ article{
 }
 
 .content {
-    padding: 70px;
+    padding: 70px 0px 0px 5%;
+
+    a {
+        position: absolute;
+        text-decoration: none;
+        color: #5C7BAD;
+        margin-top: -60px;
+    }
+
+    a:hover{
+        margin-top: -60px;
+        background-color: #0F1E53;
+        border-radius: 15px;
+        color: white;
+        }
 }
 
 #title {
@@ -53,7 +67,7 @@ article{
 }
 
 .footer {
-    position:static;
+    position: relative;
     bottom:0;
     width:100%;
     background-color: aliceblue;
@@ -61,4 +75,51 @@ article{
     height: 50px;
     padding: 15px;
     text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: stretch;
+
+    h2{
+        border-bottom: 2px solid black;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    p{
+        border-bottom: 1px solid grey;
+        background-color: aliceblue;
+        padding: 15px;
+        letter-spacing: 0.34px;
+        align-self: stretch;
+
+        a{
+            text-decoration: none;
+            color: #5C7BAD;
+        }
+
+        a:hover{
+            background-color: #0F1E53;
+            border-radius: 15px;
+            color: white;
+            padding: 5px 0px 5px 0px;
+        }
+    }
+}
+
+.table {
+    border: 1px solid black;
+    margin: 0 5% 50px 5%;
+}
+
+#space-taker {
+    flex: 1;
+}
+
+#disclaimer{
+    margin: 5% 10% 5% 10%;
 }

@@ -101,13 +101,6 @@ article{
     }
 }
 
-@media screen and (max-width < 500px){
-    .row {
-        overflow: scroll;
-    }
-    
-}
-
 #head {
     background-color: aliceblue;
     text-align: center;

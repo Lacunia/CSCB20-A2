@@ -267,6 +267,7 @@ article{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid gray;
-    background-color: #ECEDEF;
+    background-color: #A5B4CA;
+    color:white;
     box-sizing: border-box; 
 }

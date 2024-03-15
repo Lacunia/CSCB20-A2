@@ -80,17 +80,6 @@ article{
     */
 }
 
-@media screen and (max-width < 500px){
-    .instructors {
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .instructor-info {
-        flex-basis: calc(100% - 20px); /* Full width for smaller screens */
-    }
-}
 
 .footer {
     position:relative;
@@ -114,11 +103,10 @@ article{
     color:black;
 }*/
 
-@media screen and (max-width < 400px){
+@media screen and (max-width = 400px){
     .footer{
         display: flex;
         flex-direction: column;
         height: 100px;
     }
-    
 }

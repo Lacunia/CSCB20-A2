@@ -45,16 +45,18 @@ article{
 }
 
 .content {
-    padding-top: 70px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
 }
 
 #title {
     display: flex;
     justify-content: center;
+}
+
+.header {
+    padding-top: 70px;
 }
 
 .three-box {
@@ -92,7 +94,7 @@ article{
     img {
         width: 70%;
         height: auto;
-        padding: 0px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
     }
 }
 
@@ -101,7 +103,7 @@ article{
     img {
         width: 70%;
         height: auto;
-        padding: 15px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
     }
 }
 
@@ -164,7 +166,7 @@ article{
     grid-template-rows: auto;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 0px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     overflow: auto;
     box-sizing: border-box; 
 }

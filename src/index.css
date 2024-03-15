@@ -95,13 +95,6 @@ article{
     margin-top: -20px;
 }
 
-@media screen and (max-width > 500px){
-    .content {
-        display: flex;
-    }
-    
-}
-
 .table {
     display: grid;
     grid-template-columns: 1fr 4fr;
